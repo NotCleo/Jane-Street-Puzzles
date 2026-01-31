@@ -72,3 +72,15 @@ mrut@Maverick:~/maketest$ tree
 
 11 directories, 39 files
 
+
+To run the entire flow: 
+
+mkdir build
+cd build
+cmake ..
+make
+./executable name as provided
+
+There you are good to go!!
+
+I dearly thank the contents of this video to teach me all this : https://www.youtube.com/watch?v=NGPo7mz1oa4
