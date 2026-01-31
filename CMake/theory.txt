@@ -1,0 +1,18 @@
+Let's suppose you have a single C file
+
+You can compile it using : gcc -o main main.c
+With aggressive compiling : gcc -O3 -o main main.c 
+
+With object file being generated : gcc -c main.c, gcc -o main2.c
+The above two files will be linked as follows : gcc -o main main.o main2.o
+
+
+But say you have hundreds or thousands of C files or object files, or header files (dependent ones), how does one go about compiling all these files together
+
+That's where we introduce "make" 
+
+By default, make looks for a file named Makefile or makefile
+
+In the Makefile, we write down all the compile commands for the different c files that are added during production and we just can remove or add the object/header files easily
+
+Follow the files in /CMAke to see it in action!
