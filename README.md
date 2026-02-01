@@ -1,2 +1,11 @@
 # Jane-Street-Puzzles
-This repository broadly will cover all the c code I write for simulating the puzzles found at Jane Street Puzzle Archives
+
+    We can run OCaml two ways
+        sudo apt install ocaml-nox  
+        sudo apt install utop
+    To run utop, we initialize with utop and keep writing our ml code and to exit ctrl+d
+    To compile via native ocaml compiler : ocamlopt <file name>.ml -o <whatever>
+
+
+    
+ 
